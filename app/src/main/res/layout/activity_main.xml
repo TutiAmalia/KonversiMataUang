@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity">
 
         <TextView
@@ -12,34 +13,41 @@
             android:layout_height="wrap_content"
             android:text="@string/konversi_mata_uang"
             android:id="@+id/tv_data"
+            android:layout_marginTop="16dp"
             android:textSize="18sp"
             android:textStyle="bold"
             android:gravity="center"/>
 
-        <Button
-            android:id="@+id/btn_moveDtoR"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:text="@string/dollar_ke_rupiah"
-            android:background="@android:color/holo_blue_light"
-            android:layout_gravity="center"
-            />
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="16dp">
 
-        <Button
-            android:id="@+id/btn_moveRtoD"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:text="@string/rupiah_ke_dollar"
-            android:background="@android:color/holo_green_dark"
-            android:layout_gravity="center"/>
+                <Button
+                    android:id="@+id/btn_moveDtoR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:padding="24dp"
+                    android:text="@string/dollar_ke_rupiah"
+                    android:background="@android:color/holo_blue_light"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"
+                    />
 
+                <Button
+                    android:id="@+id/btn_moveRtoD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:padding="24dp"
+                    android:text="@string/rupiah_ke_dollar"
+                    android:background="@android:color/holo_green_dark"
+                    android:layout_gravity="center"
+                    android:layout_weight="50"/>
+
+        </LinearLayout>
 
 </LinearLayout>

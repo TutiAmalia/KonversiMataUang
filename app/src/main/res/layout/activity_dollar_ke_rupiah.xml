@@ -11,7 +11,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/masukkan_jumlah_mata_uang"
+            android:text= "@string/masukkan_jumlah_mata_uang_dollar"
             android:textStyle="bold"
             android:id="@+id/tv_data1"/>
 
@@ -37,9 +37,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hasil"
+            android:text="@string/nilai_rupiah"
             android:id="@+id/tv_hasil"
-            android:textSize="24sp"
+            android:textSize="16sp"
             android:layout_gravity="center"
             />
 

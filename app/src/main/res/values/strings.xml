@@ -6,4 +6,8 @@
     <string name="masukkan_jumlah_mata_uang">Masukkan jumlah mata uang</string>
     <string name="hasil">Hasil</string>
     <string name="konversi">KONVERSI</string>
+    <string name="masukkan_jumlah_mata_uang_dollar">Masukkan jumlah mata uang Dollar ($)</string>
+    <string name="nilai_rupiah">Nilai Rupiah</string>
+    <string name="masukkan_jumlah_mata_uang_rupiah_rp">Masukkan jumlah mata uang rupiah (Rp.)</string>
+    <string name="nilai_dollar">Nilai Dollar</string>
 </resources>
