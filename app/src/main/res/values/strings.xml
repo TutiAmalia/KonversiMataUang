@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KonversiMataUang</string>
+    <string name="konversi_mata_uang">KONVERSI MATA UANG</string>
+    <string name="dollar_ke_rupiah">Dollar ke Rupiah</string>
+    <string name="rupiah_ke_dollar">Rupiah ke Dollar</string>
+    <string name="masukkan_jumlah_mata_uang">Masukkan jumlah mata uang</string>
+    <string name="hasil">Hasil</string>
+    <string name="konversi">KONVERSI</string>
+</resources>
